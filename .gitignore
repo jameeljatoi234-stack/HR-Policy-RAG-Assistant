@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Uploaded HR documents
+*.pdf
+
+# FAISS / generated files
+*.faiss
+*.index
+*.pkl
+
+# Model/cache directories
+.cache/
+huggingface/
+sentence_transformers/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
